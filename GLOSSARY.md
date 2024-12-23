@@ -23,3 +23,9 @@ This is like a robot lawyer that follows rules. It’s a computer program that d
 ### 5. NFT (Non-Fungible Token)  
 An NFT is like a one-of-a-kind digital sticker or collectible. Each one is special and can’t be copied. People use NFTs to own and trade unique things like art, music, or even video clips on the internet.
 
+---
+
+### 6. Decentralization  
+This means there’s no single boss or owner. Instead, everyone has a say. In blockchain, this happens because the data is shared across many computers instead of being controlled by one person or company.
+
+---
