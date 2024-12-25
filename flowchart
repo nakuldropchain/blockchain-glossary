@@ -1,12 +1,10 @@
-```mermaid
 flowchart TD
-    A[Start] --> B[Decide the Scope]
-    B --> C[Research Blockchain Terms]
-    C --> D[Write Simple Definitions]
-    D --> E[Organize Terms Alphabetically]
-    E --> F[Create a Markdown File]
-    F --> G[Write Terms in Markdown Format]
-    G --> H[Review for Clarity and Accuracy]
-    H --> I[Commit to GitHub Repository]
-    I --> J[Iterate and Add More Terms]
-    J --> K[Glossary Complete]
+    A[Start] --> B[Collect Ideas]
+    B --> C[Decide the Scope]
+    C --> D[Research Blockchain Terms]
+    D --> E[Write Simple Definitions]
+    E --> F[Organize Terms Alphabetically]
+    F --> G[Create a Markdown File]
+    G --> H[Write Terms in Markdown Format]
+    H --> I[Review for Clarity and Accuracy]
+    I --> J
