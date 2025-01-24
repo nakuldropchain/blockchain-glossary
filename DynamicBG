@@ -52,4 +52,4 @@ print("\nBlockchain Glossary:")
 for term, definition in blockchain_glossary.items():
     print(f"{term}: {definition}")
 
-Are there any alternate approaches for this?
+Are there any alternate approaches for this??
