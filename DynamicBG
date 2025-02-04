@@ -52,4 +52,27 @@ print("\nBlockchain Glossary:")
 for term, definition in blockchain_glossary.items():
     print(f"{term}: {definition}")
 
-Are there any alternate approaches for this??
+Improvement: Check if the API key or search engine ID is missing, and prompt the user with a clear message.
+Rationale: Prevents runtime errors and informs the user of the missing configuration.
+
+def fetch_trending_blockchain_term():
+    API_KEY = "YOUR_API_KEY"
+    SEARCH_ENGINE_ID = "YOUR_SEARCH_ENGINE_ID"
+    
+    if API_KEY == "YOUR_API_KEY" or SEARCH_ENGINE_ID == "YOUR_SEARCH_ENGINE_ID":
+        print("API key or Search Engine ID is missing. Please update the code.")
+        return None
+
+Rationale: Reduces the manual burden on the user to provide definitions.
+def get_automated_definition(term):
+    api_url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{term}"
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()
+        definition = response.json()[0]['meanings'][0]['definitions'][0]['definition']
+        return definition
+    except Exception as e:
+        print(f"Couldn't fetch a definition: {e}")
+        return None
+
+
