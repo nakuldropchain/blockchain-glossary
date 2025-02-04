@@ -1,7 +1,7 @@
 # Blockchain Glossary
 
 ### 1. Blockchain  
-Imagine a digital notebook that everyone can see but no one can change. This notebook is shared across many computers worldwide, and it keeps a record of all the important things, like transactions. Once something is written in the notebook, it stays there forever, so everyone knows it's trustworthy
+Imagine a digital notebook that everyone can see but no one can change. This notebook is shared across many computers worldwide, and it keeps a record of all the important things, like transactions. Once something is written in the notebook, it stays there forever, so everyone knows it's trustworthy.
 
 ---
 
