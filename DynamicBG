@@ -73,6 +73,6 @@ def get_automated_definition(term):
         return definition
     except Exception as e:
         print(f"Couldn't fetch a definition: {e}")
-        return None
+        return None?
 
 
