@@ -1,4 +1,4 @@
-import requests?
+import requests.
 
 # Initialize the blockchain glossary
 blockchain_glossary = {
