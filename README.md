@@ -1,3 +1,3 @@
 # blockchain-glossary
-.A beginner-friendly glossary of blockchain and Web3 term..
+.A beginner-friendly glossary of blockchain and Web3 term.
 ;
